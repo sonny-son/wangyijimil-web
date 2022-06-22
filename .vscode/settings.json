@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/Users/sonny/.local/share/virtualenvs/wangyijimil-web-iFoZ8DKN/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black"
+}
