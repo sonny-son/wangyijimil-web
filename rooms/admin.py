@@ -21,4 +21,12 @@ class PhotoAdmin(admin.ModelAdmin):
 class RoomAdmin(admin.ModelAdmin):
     """Room Admin Definiton"""
 
-    pass
+    list_display = (
+        "name",
+        "max_guests",
+        "beds",
+        "bedrooms",
+        "bathrooms",
+    )
+
+    search_fields = ("name",)
