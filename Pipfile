@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 django = "==2.2.5"
+pillow = "*"
+django-phonenumber-field = "*"
+phonenumbers = "*"
 
 [dev-packages]
 flake8 = "*"
